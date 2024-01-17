@@ -31,7 +31,7 @@ const Navbar = () => {
                         className="w-8"
                       />
                     </span>
-                    <span>Nextly</span>
+                    <span>Thrive Trading</span>
                   </span>
                 </Link>
 
