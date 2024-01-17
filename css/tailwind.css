@@ -1,10 +1,23 @@
+/* Add this to your existing CSS file */
+
+body::before {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: url('path/to/your-svg.svg') center/cover no-repeat; /* Replace with the path to your SVG file */
+  z-index: -1; /* Place it behind other elements */
+}
+
+/* Body styling */
+body {
+  margin: 0; /* Remove default body margin */
+  overflow: hidden; /* Prevent scrolling */
+}
+
+/* Rest of your Tailwind CSS styles */
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
-@layer base {
-  html,
-  body {
-    @apply dark:bg-trueGray-900;
-  }
-}
