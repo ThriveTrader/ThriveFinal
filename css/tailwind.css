@@ -7,7 +7,7 @@ body::before {
   left: 0;
   width: 100vw;
   height: 100vh;
-  background: url('public/Main BGg') center/cover no-repeat; /* Replace with the path to your SVG file */
+  background: url('Main BGg'); /* Replace with the path to your SVG file */
   z-index: -1; /* Place it behind other elements */
 }
 
